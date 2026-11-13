@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itzrealzunken | Niche TikTok Creator</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit for ultra-readable modern typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Outfit"', 'sans-serif'],
+          },
+          animation: {
+            'spin-slow': 'spin 8s linear infinite',
+            'pulse-glow': 'pulseGlow 4s ease-in-out infinite alternate',
+            'float': 'float 5s ease-in-out infinite',
+          },
+          keyframes: {
+            pulseGlow: {
+              '0%': { opacity: '0.65', transform: 'scale(0.98)' },
+              '100%': { opacity: '1', transform: 'scale(1.02)' },
+            },
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-8px)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-[#07070d] text-white flex items-center justify-center p-4 sm:p-8 overflow-x-hidden relative selection:bg-cyan-400 selection:text-slate-950">
+
+  <!-- Ambient Background Colorful Neon Orbs (Enclosed Room Atmosphere) -->
+  <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+    <!-- Top-Left Cyan Neon Light -->
+    <div class="absolute -top-24 -left-24 w-72 sm:w-96 h-72 sm:h-96 bg-cyan-500/25 rounded-full blur-[110px] animate-pulse-glow"></div>
+    <!-- Bottom-Right Magenta/Pink Neon Light -->
+    <div class="absolute -bottom-24 -right-24 w-72 sm:w-96 h-72 sm:h-96 bg-fuchsia-600/25 rounded-full blur-[110px] animate-pulse-glow"></div>
+    <!-- Center-Top Purple/Lime Accent Light -->
+    <div class="absolute top-1/4 right-1/4 w-64 h-64 bg-violet-600/20 rounded-full blur-[100px]"></div>
+    <div class="absolute bottom-1/4 left-1/3 w-56 h-56 bg-emerald-400/15 rounded-full blur-[100px]"></div>
+    <!-- Subtle Dark Grid Overlay -->
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#ffffff06_1px,transparent_1px),linear-gradient(to_bottom,#ffffff06_1px,transparent_1px)] bg-[size:36px_36px]"></div>
+  </div>
+
+  <!-- Main Enclosed Neon Colorful Light Frame Container -->
+  <main class="relative z-10 w-full max-w-5xl rounded-[2.25rem] p-[3px] shadow-[0_0_55px_-10px_rgba(34,211,238,0.45),0_0_75px_-15px_rgba(232,121,249,0.4)] overflow-hidden">
+    
+    <!-- Rotating Conic Rainbow Neon Tube Border -->
+    <div class="absolute inset-[-150%] bg-[conic-gradient(from_0deg,#00f5d4,#00bbf9,#9b5de5,#f15bb5,#fee440,#00f5d4)] animate-spin-slow"></div>
+
+    <!-- Inner Enclosed Dark Glassmorphic Card -->
+    <div class="relative bg-[#0b0c15]/95 backdrop-blur-2xl rounded-[2.1rem] p-6 sm:p-10 md:p-12 lg:p-14 border border-white/10">
+      
+      <!-- Inner Corner Neon Tube Accents -->
+      <div class="absolute top-0 left-8 right-8 h-[2px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent opacity-80"></div>
+      <div class="absolute bottom-0 left-8 right-8 h-[2px] bg-gradient-to-r from-transparent via-fuchsia-500 to-transparent opacity-80"></div>
+
+      <!-- Top Status Header Bar -->
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-8 pb-5 border-b border-white/10">
+        <div class="flex items-center gap-2.5">
+          <span class="relative flex h-3 w-3">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-cyan-400 shadow-[0_0_10px_#22d3ee]"></span>
+          </span>
+          <span class="text-xs sm:text-sm font-semibold tracking-wider uppercase text-cyan-300">
+            @Itzrealzunken • Creator Spotlight
+          </span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold bg-fuchsia-500/15 text-fuchsia-300 border border-fuchsia-500/40 shadow-[0_0_15px_rgba(217,70,239,0.25)]">
+            133 Followers
+          </span>
+          <span class="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/40 shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+            TikTok Niche
+          </span>
+        </div>
+      </div>
+
+      <!-- Two-Column Content Grid: Left Side Readable Text + Right Side Profile Image -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+        
+        <!-- LEFT SIDE: Readable Text & Creator Details -->
+        <div class="lg:col-span-7 space-y-6 order-2 lg:order-1">
+          <div>
+            <h1 class="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-white to-fuchsia-400 drop-shadow-[0_2px_18px_rgba(34,211,238,0.35)]">
+              Itzrealzunken
+            </h1>
+            <p class="text-sm sm:text-base text-slate-400 mt-1 font-medium">
+              Niche TikTok Creator • Roblox &amp; Underground Edits
+            </p>
+          </div>
+
+          <!-- Primary Bio Box with Clean, High-Contrast Readable Font -->
+          <div class="relative rounded-2xl bg-white/[0.04] border border-cyan-400/30 p-5 sm:p-6 shadow-[inset_0_0_25px_rgba(34,211,238,0.06)]">
+            <p class="text-lg sm:text-xl md:text-[1.22rem] leading-relaxed text-slate-100 font-normal tracking-normal">
+              Itzrealzunken is a niche small tiktok content creator that uploads a fewer videos, he haves a pocoyo profile picture with a white background, he haves 133 followers and he uploads roblox videos, niche videos etc
+            </p>
+          </div>
+
+          <!-- Highlight Badges / Content Tags -->
+          <div class="flex flex-wrap gap-2.5 pt-1">
+            <span class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-cyan-500/10 text-cyan-200 border border-cyan-400/40 shadow-[0_0_12px_rgba(34,211,238,0.2)]">
+              🎮 Roblox Videos
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-purple-500/10 text-purple-200 border border-purple-400/40 shadow-[0_0_12px_rgba(168,85,247,0.2)]">
+              ✨ Niche Videos
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-amber-500/10 text-amber-200 border border-amber-400/40 shadow-[0_0_12px_rgba(245,158,11,0.2)]">
+              🎬 Fewer Uploads
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-pink-500/10 text-pink-200 border border-pink-400/40 shadow-[0_0_12px_rgba(236,72,153,0.2)]">
+              👥 133 Followers
+            </span>
+          </div>
+
+          <!-- Interactive Action Buttons -->
+          <div class="flex flex-wrap items-center gap-3 pt-2">
+            <button
+              id="copyBioBtn"
+              type="button"
+              class="px-5 py-3 rounded-xl font-semibold text-sm bg-gradient-to-r from-cyan-400 to-fuchsia-500 text-slate-950 shadow-[0_0_25px_rgba(34,211,238,0.45)] hover:shadow-[0_0_35px_rgba(232,121,249,0.65)] active:scale-95 transition-all duration-200 cursor-pointer"
+            >
+              Copy Creator Bio
+            </button>
+
+            <button
+              id="cycleGlowBtn"
+              type="button"
+              class="px-5 py-3 rounded-xl font-semibold text-sm bg-white/5 hover:bg-white/10 text-white border border-white/15 hover:border-cyan-400/50 active:scale-95 transition-all duration-200 cursor-pointer"
+            >
+              Switch Neon Glow
+            </button>
+          </div>
+
+          <!-- Toast Feedback Message (No alert() used) -->
+          <div id="toastMsg" class="hidden text-xs sm:text-sm font-medium text-emerald-300 bg-emerald-500/15 border border-emerald-400/30 rounded-xl px-4 py-2.5 transition-opacity duration-300">
+            Bio copied to clipboard!
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE: Profile Picture Next to the Left Text -->
+        <div class="lg:col-span-5 flex flex-col items-center justify-center order-1 lg:order-2">
+          <div class="relative group animate-float">
+            
+            <!-- Multi-color Neon Halo Behind Profile Picture -->
+            <div id="avatarHalo" class="absolute -inset-3 rounded-full bg-gradient-to-tr from-cyan-400 via-fuchsia-500 to-amber-300 opacity-80 blur-xl group-hover:opacity-100 transition duration-500"></div>
+
+            <!-- Circular Neon Ring Container -->
+            <div class="relative w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-full p-[4px] bg-gradient-to-tr from-cyan-400 via-violet-500 to-fuchsia-500 shadow-[0_0_35px_rgba(217,70,239,0.5)]">
+              <!-- White Background Circle matching the Pocoyo Profile Picture -->
+              <div class="w-full h-full rounded-full bg-white overflow-hidden flex items-center justify-center relative">
+                <!-- Displays your uploaded image 2487.jpg if present locally, or renders a crisp custom SVG recreation of Pocoyo in the Real Madrid cap & kit on a clean white background -->
+                <img
+                  id="profileImg"
+                  src="2487.jpg"
+                  alt="Itzrealzunken Pocoyo Real Madrid Profile Picture on White Background"
+                  class="w-full h-full object-cover"
+                  onerror="this.style.display='none'; document.getElementById('pocoyoFallback').classList.remove('hidden');"
+                />
+
+                <!-- Clean Custom Vector Fallback Matching Your Image (Pocoyo with Black Real Madrid Ushanka Hat & White Kit on White Background) -->
+                <div id="pocoyoFallback" class="hidden w-full h-full bg-white flex items-center justify-center p-2">
+                  <svg viewBox="0 0 300 300" class="w-full h-full" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pocoyo Real Madrid Avatar">
+                    <circle cx="150" cy="150" r="148" fill="#ffffff" />
+                    <!-- Subtle ground shadow -->
+                    <ellipse cx="155" cy="264" rx="68" ry="10" fill="#e5e7eb" />
+                    <!-- Shoes -->
+                    <ellipse cx="105" cy="254" rx="22" ry="11" fill="#111111" />
+                    <ellipse cx="145" cy="256" rx="22" ry="11" fill="#111111" />
+                    <!-- White Outfit Body & Legs -->
+                    <path d="M92 175 C85 215, 95 248, 108 250 L125 250 L132 225 L138 250 L155 250 C162 230, 165 195, 160 175 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+                    <!-- Left Arm & Fist -->
+                    <path d="M105 182 L115 218 L135 215 L128 178 Z" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+                    <circle cx="128" cy="222" r="14" fill="#e08e55" />
+                    <!-- Right Arm Raised & Cheering Fist -->
+                    <path d="M155 178 L195 176 L195 196 L155 198 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+                    <circle cx="202" cy="184" r="16" fill="#e08e55" />
+                    <!-- Jersey Text Accent -->
+                    <text x="112" y="205" font-family="sans-serif" font-size="8" font-weight="bold" fill="#1e293b" transform="rotate(-12 112 205)">Emirates</text>
+                    <!-- Head -->
+                    <ellipse cx="145" cy="122" rx="54" ry="50" fill="#e08e55" />
+                    <!-- Happy Closed Eyes -->
+                    <path d="M118 116 Q125 103 132 116" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M156 113 Q163 100 170 113" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+                    <!-- Nose -->
+                    <circle cx="146" cy="122" r="5" fill="#d17b42" />
+                    <!-- Happy Open Mouth -->
+                    <path d="M137 137 Q150 135 161 136 Q159 157 148 157 Q138 156 137 137 Z" fill="#881337" />
+                    <!-- Black Winter Ushanka Hat -->
+                    <path d="M84 118 C80 55, 118 28, 152 30 C186 32, 204 62, 200 105 C165 92, 120 96, 84 118 Z" fill="#111111" />
+                    <!-- Hat Ear Flap -->
+                    <path d="M84 106 C74 125, 76 155, 92 158 C105 160, 108 135, 102 114 Z" fill="#111111" />
+                    <!-- Real Madrid Crest Emblem on Hat -->
+                    <g transform="translate(136, 62)">
+                      <!-- Crown -->
+                      <path d="M-8 -16 L8 -16 L10 -22 L4 -19 L0 -25 L-4 -19 L-10 -22 Z" fill="#eab308" stroke="#a16207" stroke-width="1"/>
+                      <!-- Crest Circle -->
+                      <circle cx="0" cy="0" r="15" fill="#ffffff" stroke="#eab308" stroke-width="3"/>
+                      <!-- Blue Diagonal Sash -->
+                      <line x1="-10" y1="-10" x2="10" y2="10" stroke="#0284c7" stroke-width="4"/>
+                      <!-- Gold Monogram -->
+                      <circle cx="0" cy="0" r="7" fill="none" stroke="#ca8a04" stroke-width="2"/>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Optional Custom Image Picker so user can load 2487.jpg directly from device if viewing in sandboxed preview -->
+          <label class="mt-5 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-medium text-slate-300 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-cyan-400/40 cursor-pointer transition">
+            <span>Change / Load Local Image</span>
+            <input id="imageUploadInput" type="file" accept="image/*" class="hidden" />
+          </label>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Bio text to copy
+    const creatorBioText = "Itzrealzunken is a niche small tiktok content creator that uploads a fewer videos, he haves a pocoyo profile picture with a white background, he haves 133 followers and he uploads roblox videos, niche videos etc";
+
+    const copyBioBtn = document.getElementById('copyBioBtn');
+    const toastMsg = document.getElementById('toastMsg');
+    const cycleGlowBtn = document.getElementById('cycleGlowBtn');
+    const avatarHalo = document.getElementById('avatarHalo');
+    const imageUploadInput = document.getElementById('imageUploadInput');
+    const profileImg = document.getElementById('profileImg');
+    const pocoyoFallback = document.getElementById('pocoyoFallback');
+
+    // Copy bio using iframe-safe execCommand fallback
+    copyBioBtn.addEventListener('click', () => {
+      const tempInput = document.createElement('textarea');
+      tempInput.value = creatorBioText;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      try {
+        document.execCommand('copy');
+        toastMsg.textContent = "Bio copied to clipboard!";
+        toastMsg.classList.remove('hidden');
+        setTimeout(() => {
+          toastMsg.classList.add('hidden');
+        }, 2800);
+      } catch (err) {
+        toastMsg.textContent = "Unable to copy automatically.";
+        toastMsg.classList.remove('hidden');
+      }
+      document.body.removeChild(tempInput);
+    });
+
+    // Cycle colorful neon halo themes around the profile picture
+    const neonThemes = [
+      'from-cyan-400 via-fuchsia-500 to-amber-300',
+      'from-emerald-400 via-cyan-400 to-indigo-500',
+      'from-rose-500 via-amber-400 to-lime-400',
+      'from-violet-500 via-pink-500 to-cyan-300'
+    ];
+    let currentThemeIndex = 0;
+
+    cycleGlowBtn.addEventListener('click', () => {
+      avatarHalo.classList.remove(...neonThemes[currentThemeIndex].split(' '));
+      currentThemeIndex = (currentThemeIndex + 1) % neonThemes.length;
+      avatarHalo.classList.add(...neonThemes[currentThemeIndex].split(' '));
+    });
+
+    // Allow user to load their local image file directly into the preview
+    imageUploadInput.addEventListener('change', (event) => {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        profileImg.src = e.target.result;
+        profileImg.style.display = 'block';
+        pocoyoFallback.classList.add('hidden');
+      };
+      reader.readAsDataURL(file);
+    });
+  </script>
+</body>
+</html>
